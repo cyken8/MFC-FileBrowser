@@ -1,0 +1,41 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: sp - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\cyk\AppData\Local\Temp\RSP594E.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/sp.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\visual c++就业培训宝典视频\自写代码\第12章练习题\sp\RightView.cpp"
+]
+Creating command line "cl.exe @C:\Users\cyk\AppData\Local\Temp\RSP594E.tmp" 
+Creating temporary file "C:\Users\cyk\AppData\Local\Temp\RSP594F.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/sp.pdb" /debug /machine:I386 /out:"Debug/sp.exe" /pdbtype:sept 
+".\Debug\ChildView.obj"
+".\Debug\LeftView.obj"
+".\Debug\MainFrm.obj"
+".\Debug\RightView.obj"
+".\Debug\sp.obj"
+".\Debug\StdAfx.obj"
+".\Debug\sp.res"
+]
+Creating command line "link.exe @C:\Users\cyk\AppData\Local\Temp\RSP594F.tmp"
+<h3>Output Window</h3>
+Compiling...
+RightView.cpp
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/sp.bsc"  ".\Debug\StdAfx.sbr" ".\Debug\ChildView.sbr" ".\Debug\LeftView.sbr" ".\Debug\MainFrm.sbr" ".\Debug\RightView.sbr" ".\Debug\sp.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+sp.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

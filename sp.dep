@@ -1,0 +1,31 @@
+# Microsoft Developer Studio Generated Dependency File, included by sp.mak
+
+.\ChildView.cpp : \
+	".\ChildView.h"\
+	".\sp.h"\
+	".\StdAfx.h"\
+	
+
+.\MainFrm.cpp : \
+	".\ChildView.h"\
+	".\MainFrm.h"\
+	".\sp.h"\
+	".\StdAfx.h"\
+	
+
+.\sp.cpp : \
+	".\ChildView.h"\
+	".\MainFrm.h"\
+	".\sp.h"\
+	".\StdAfx.h"\
+	
+
+.\sp.rc : \
+	".\res\sp.ico"\
+	".\res\sp.rc2"\
+	".\res\Toolbar.bmp"\
+	
+
+.\StdAfx.cpp : \
+	".\StdAfx.h"\
+	
